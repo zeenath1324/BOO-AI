@@ -1,0 +1,192 @@
+{
+  "users": [
+    {
+      "id": "0013ef84-4e71-401b-8453-7e99d8f88e04",
+      "email": "test@example.com",
+      "username": "testuser",
+      "name": "Test User",
+      "avatarColor": "#f43f5e",
+      "passwordHash": "b8ad9d94c3ff55b157699caa40ca4b10:a1803cd1e39eeb7e8eee4208a2abe3f38d670b253f7159dd8c4621f3dafbb278d8cf0c5b248982531ad29005e58693ba632b59c99559eab6c4486ab4f75a41e1",
+      "isGuest": false,
+      "createdAt": "2026-10-14T10:43:57.161Z"
+    },
+    {
+      "id": "6c0b4a32-411e-40d3-ac37-bf7bd64e1e2f",
+      "email": "guest_3357@booai.local",
+      "username": "boo_guest_3357",
+      "name": "Guest Friend",
+      "avatarColor": "#ec4899",
+      "isGuest": true,
+      "createdAt": "2026-10-14T11:00:41.698Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "e66deee471b3119b3fcba155594241e8d9498fac711889a1dcae3ba7337b1e20",
+      "userId": "0013ef84-4e71-401b-8453-7e99d8f88e04",
+      "createdAt": "2026-10-14T10:43:57.161Z",
+      "expiresAt": "2026-11-13T10:43:57.161Z"
+    }
+  ],
+  "chats": [
+    {
+      "id": "c0bbd8a8-e29d-4103-9b20-940b9a0afb2a",
+      "userId": "6c0b4a32-411e-40d3-ac37-bf7bd64e1e2f",
+      "title": "hello i am zeeenath",
+      "isPinned": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-10-14T11:01:04.367Z",
+      "updatedAt": "2026-10-14T11:01:19.907Z",
+      "lastMessageSnippet": ""
+    },
+    {
+      "id": "696905ab-57c3-4484-9134-5a4de05a47b0",
+      "userId": "6c0b4a32-411e-40d3-ac37-bf7bd64e1e2f",
+      "title": "Help me brainstorm unique conc...",
+      "isPinned": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-10-14T11:00:41.767Z",
+      "updatedAt": "2026-10-14T11:00:41.850Z",
+      "lastMessageSnippet": ""
+    },
+    {
+      "id": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "userId": "0013ef84-4e71-401b-8453-7e99d8f88e04",
+      "title": "Say hello",
+      "isPinned": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-10-14T10:44:03.260Z",
+      "updatedAt": "2026-10-14T11:02:55.534Z",
+      "lastMessageSnippet": ""
+    }
+  ],
+  "messages": [
+    {
+      "id": "457f7128-f6da-4528-a9ec-c9e1ad66743a",
+      "chatId": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "role": "user",
+      "content": "Say hello in 5 words",
+      "createdAt": "2026-10-14T10:44:03.286Z"
+    },
+    {
+      "id": "89735a7e-4ee5-4e8e-a1f9-43152ad86f5e",
+      "chatId": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "role": "assistant",
+      "content": "⚠️ Error communicating with BOO AI: {\"error\":{\"message\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 503,\\n    \\\"message\\\": \\\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\\\",\\n    \\\"status\\\": \\\"UNAVAILABLE\\\"\\n  }\\n}\\n\",\"code\":503,\"status\":\"Service Unavailable\"}}",
+      "createdAt": "2026-10-14T10:44:03.286Z"
+    },
+    {
+      "id": "efb88f36-f5ad-4e6a-a987-5a57ad8a91b6",
+      "chatId": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "role": "user",
+      "content": "Say hello in 5 words",
+      "createdAt": "2026-10-14T10:44:24.624Z"
+    },
+    {
+      "id": "9d76be15-173d-4c9b-9181-790fc786b6b3",
+      "chatId": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "role": "assistant",
+      "content": "⚠️ Error communicating with BOO AI: {\"error\":{\"message\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 503,\\n    \\\"message\\\": \\\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\\\",\\n    \\\"status\\\": \\\"UNAVAILABLE\\\"\\n  }\\n}\\n\",\"code\":503,\"status\":\"Service Unavailable\"}}",
+      "createdAt": "2026-10-14T10:44:24.625Z"
+    },
+    {
+      "id": "5711632a-5621-4f50-b750-31bebcd938f3",
+      "chatId": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "role": "user",
+      "content": "Say hello in 5 words",
+      "createdAt": "2026-10-14T10:44:46.395Z"
+    },
+    {
+      "id": "be9e8dcf-0dd7-4bd1-9a12-9974c04028ab",
+      "chatId": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "role": "assistant",
+      "content": "⚠️ Error communicating with BOO AI: {\"error\":{\"message\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 503,\\n    \\\"message\\\": \\\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\\\",\\n    \\\"status\\\": \\\"UNAVAILABLE\\\"\\n  }\\n}\\n\",\"code\":503,\"status\":\"Service Unavailable\"}}",
+      "createdAt": "2026-10-14T10:44:46.395Z"
+    },
+    {
+      "id": "f8efc0da-4633-4e60-a0f6-ec52f24aa563",
+      "chatId": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "role": "user",
+      "content": "Say hello in 5 words",
+      "createdAt": "2026-10-14T10:45:27.476Z"
+    },
+    {
+      "id": "9c7b0882-51f0-4703-9771-aea75e3cc79a",
+      "chatId": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "role": "assistant",
+      "content": "",
+      "createdAt": "2026-10-14T10:45:27.478Z"
+    },
+    {
+      "id": "1777e078-7028-4101-a113-ca901d6b2d2f",
+      "chatId": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "role": "user",
+      "content": "Say hello in 5 words",
+      "createdAt": "2026-10-14T10:45:45.130Z"
+    },
+    {
+      "id": "50739c4c-a9f5-43a1-80a6-8e0993b5575a",
+      "chatId": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "role": "assistant",
+      "content": "Hey there! 💗 I'm BOO AI. What can I help you with today?\n\nHello, I am here today!",
+      "createdAt": "2026-10-14T10:45:45.131Z"
+    },
+    {
+      "id": "4dcfe2b0-28a6-4628-8f62-bf93f6431e89",
+      "chatId": "696905ab-57c3-4484-9134-5a4de05a47b0",
+      "role": "user",
+      "content": "Help me brainstorm unique concepts, brand values, and signature drinks for an aesthetic modern coffee shop.",
+      "createdAt": "2026-10-14T11:00:41.849Z"
+    },
+    {
+      "id": "11db4abc-5945-4665-96e1-07ec43437153",
+      "chatId": "696905ab-57c3-4484-9134-5a4de05a47b0",
+      "role": "assistant",
+      "content": "",
+      "createdAt": "2026-10-14T11:00:41.850Z"
+    },
+    {
+      "id": "b2aaa45f-363a-4fe5-aac8-fe162b97da37",
+      "chatId": "c0bbd8a8-e29d-4103-9b20-940b9a0afb2a",
+      "role": "user",
+      "content": "hello i am zeeenath",
+      "createdAt": "2026-10-14T11:01:04.437Z"
+    },
+    {
+      "id": "f027eb5f-99bf-44fb-858b-9f5b2f4af254",
+      "chatId": "c0bbd8a8-e29d-4103-9b20-940b9a0afb2a",
+      "role": "assistant",
+      "content": "Hey there! 💗 I'm BOO AI. What can I help you with today?\n\nIt is a pleasure to meet you, Zeeenath! How has your day been so far? I am here and ready to assist you with whatever you need.",
+      "createdAt": "2026-10-14T11:01:04.438Z"
+    },
+    {
+      "id": "00a3f020-217d-4897-a716-d86487debbea",
+      "chatId": "c0bbd8a8-e29d-4103-9b20-940b9a0afb2a",
+      "role": "user",
+      "content": "What is AI?",
+      "createdAt": "2026-10-14T11:01:19.906Z"
+    },
+    {
+      "id": "fefbe2a8-994f-4f49-a4de-92663ee9c0a8",
+      "chatId": "c0bbd8a8-e29d-4103-9b20-940b9a0afb2a",
+      "role": "assistant",
+      "content": "At its core, **Artificial Intelligence (AI)** is a branch of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence.\n\nThink of it as teaching computers how to \"think,\" learn, and make decisions rather than just following a rigid set of pre-programmed instructions.\n\n### How AI Works\nAI operates primarily through **Machine Learning**, where systems are fed vast amounts of data. Instead of being told exactly what to do, the AI identifies patterns within that data to improve its performance over time.\n\n### Key Components of AI\n*   **Machine Learning (ML):** Algorithms that allow computers to learn from data.\n*   **Natural Language Processing (NLP):** The technology that enables computers to understand, interpret, and generate human language (like how we are chatting right now!).\n*   **Computer Vision:** The ability for AI to \"see\" and interpret visual information from the world, such as facial recognition or self-driving car sensors.\n*   **Neural Networks:** Computing systems inspired by the biological structure of the human brain, designed to recognize complex patterns.\n\n### Types of AI\n1.  **Narrow AI (Weak AI):** This is the AI we have today. It is designed to perform a specific task exceptionally well, such as playing chess, recommending movies on Netflix, or answering your questions.\n2.  **General AI (Strong AI):** A theoretical form of AI that would possess the ability to perform any intellectual task that a human can do. This does not yet exist.\n\n### Why It Matters\nAI is transforming the world by increasing efficiency and solving complex problems. It helps doctors diagnose diseases earlier, assists in scientific breakthroughs, automates repetitive tasks, and provides personalized experiences in our daily lives.\n\nI hope this gives you a clear picture of what AI is, Zeeenath! Do you have any specific questions about how it works or how it's used? I'm here to help! 💗",
+      "createdAt": "2026-10-14T11:01:19.907Z"
+    },
+    {
+      "id": "bc9239ea-66aa-47e4-b89b-06e2ad62150e",
+      "chatId": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "role": "user",
+      "content": "Tell me a joke",
+      "createdAt": "2026-10-14T11:02:55.533Z"
+    },
+    {
+      "id": "24065d94-4f2c-4a6c-b912-454ee5a3c784",
+      "chatId": "5722b0b1-011e-4e7e-8d2a-0ab7bfb73058",
+      "role": "assistant",
+      "content": "Why don't scientists trust atoms?\n\nBecause they make up everything!",
+      "createdAt": "2026-10-14T11:02:55.534Z"
+    }
+  ],
+  "settings": {}
+}

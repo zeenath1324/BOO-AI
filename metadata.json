@@ -1,0 +1,6 @@
+{
+  "name": "BOO AI",
+  "description": "Your AI. Your World. Your BOO. Intelligent conversational AI chatbot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
